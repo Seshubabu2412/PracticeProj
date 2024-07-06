@@ -1,0 +1,10 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="practice.test.ReverseNumber"/>
+      <class name="practice.test.Palindrom"/>
+      <class name="practice.test.StringPalindrom"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
