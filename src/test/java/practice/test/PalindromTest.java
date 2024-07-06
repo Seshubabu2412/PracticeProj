@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 import org.testng.annotations.Test;
 
-public class Palindrom {
+public class PalindromTest {
 
 	@Test(priority=1)
 	public void main() {
 		
-		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the Number");
-		int num=sc.nextInt();
-		sc.close();
-		
+		/*
+		 * Scanner sc= new Scanner(System.in); System.out.println("Enter the Number");
+		 * int num=sc.nextInt(); sc.close();
+		 */
+		int num=12321;
 		int orgnum=num,rev=0;
 		
 		while(num!=0) {

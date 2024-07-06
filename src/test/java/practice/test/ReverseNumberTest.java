@@ -4,15 +4,16 @@ import java.util.Scanner;
 
 import org.testng.annotations.Test;
 
-public class ReverseNumber {
+public class ReverseNumberTest {
 
 	@Test
 	public void main() {
 		
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the Number");
-		int num=sc.nextInt();
-		sc.close();
+		/*
+		 * Scanner sc=new Scanner(System.in); System.out.println("Enter the Number");
+		 */
+		int num=12345;
+		/* sc.close(); */
 		/*
 		 * int rev=0; while(num!=0){
 		 * 
